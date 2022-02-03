@@ -13,9 +13,15 @@
 		6F87402227AC14AB0032EF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F87402027AC14AB0032EF7C /* Main.storyboard */; };
 		6F87402427AC14AD0032EF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F87402327AC14AD0032EF7C /* Assets.xcassets */; };
 		6F87402727AC14AD0032EF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F87402527AC14AD0032EF7C /* LaunchScreen.storyboard */; };
+		6F87402F27AC1CAB0032EF7C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F87402E27AC1CAB0032EF7C /* HomeViewController.swift */; };
+		6F87403427AC1F7A0032EF7C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F87403327AC1F7A0032EF7C /* Common.swift */; };
+		6F87403627AC20A20032EF7C /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F87403527AC20A20032EF7C /* SnapKitViewController.swift */; };
+		6F87403827AC20E00032EF7C /* PinNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F87403727AC20E00032EF7C /* PinNumberView.swift */; };
+		ABD817B74356A7F900D64F2F /* Pods_KeyboardHeightPotato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BCBC9670D2A29B55592C6B /* Pods_KeyboardHeightPotato.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08BCBC9670D2A29B55592C6B /* Pods_KeyboardHeightPotato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardHeightPotato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F87401727AC14AB0032EF7C /* KeyboardHeightPotato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardHeightPotato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F87401A27AC14AB0032EF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F87401C27AC14AB0032EF7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		6F87402327AC14AD0032EF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F87402627AC14AD0032EF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F87402827AC14AD0032EF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F87402E27AC1CAB0032EF7C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6F87403327AC1F7A0032EF7C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		6F87403527AC20A20032EF7C /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		6F87403727AC20E00032EF7C /* PinNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinNumberView.swift; sourceTree = "<group>"; };
+		BB3B489A9680279FFD178434 /* Pods-KeyboardHeightPotato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightPotato.release.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightPotato/Pods-KeyboardHeightPotato.release.xcconfig"; sourceTree = "<group>"; };
+		BEEB527EEFD979C533C11308 /* Pods-KeyboardHeightPotato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardHeightPotato.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardHeightPotato/Pods-KeyboardHeightPotato.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD817B74356A7F900D64F2F /* Pods_KeyboardHeightPotato.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33A06119364B25AFEBB532A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BCBC9670D2A29B55592C6B /* Pods_KeyboardHeightPotato.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F87400E27AC14AB0032EF7C = {
 			isa = PBXGroup;
 			children = (
 				6F87401927AC14AB0032EF7C /* KeyboardHeightPotato */,
 				6F87401827AC14AB0032EF7C /* Products */,
+				8AA5060E1A8928646C140625 /* Pods */,
+				33A06119364B25AFEBB532A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,44 @@
 		6F87401927AC14AB0032EF7C /* KeyboardHeightPotato */ = {
 			isa = PBXGroup;
 			children = (
+				6F87403227AC1E930032EF7C /* SnapKit+RxSwift */,
+				6F87403027AC1E5F0032EF7C /* UIKit+Swift */,
 				6F87401A27AC14AB0032EF7C /* AppDelegate.swift */,
 				6F87401C27AC14AB0032EF7C /* SceneDelegate.swift */,
-				6F87401E27AC14AB0032EF7C /* ViewController.swift */,
+				6F87403327AC1F7A0032EF7C /* Common.swift */,
+				6F87402E27AC1CAB0032EF7C /* HomeViewController.swift */,
 				6F87402027AC14AB0032EF7C /* Main.storyboard */,
 				6F87402327AC14AD0032EF7C /* Assets.xcassets */,
 				6F87402527AC14AD0032EF7C /* LaunchScreen.storyboard */,
 				6F87402827AC14AD0032EF7C /* Info.plist */,
 			);
 			path = KeyboardHeightPotato;
+			sourceTree = "<group>";
+		};
+		6F87403027AC1E5F0032EF7C /* UIKit+Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6F87401E27AC14AB0032EF7C /* ViewController.swift */,
+			);
+			path = "UIKit+Swift";
+			sourceTree = "<group>";
+		};
+		6F87403227AC1E930032EF7C /* SnapKit+RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6F87403527AC20A20032EF7C /* SnapKitViewController.swift */,
+				6F87403727AC20E00032EF7C /* PinNumberView.swift */,
+			);
+			path = "SnapKit+RxSwift";
+			sourceTree = "<group>";
+		};
+		8AA5060E1A8928646C140625 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB527EEFD979C533C11308 /* Pods-KeyboardHeightPotato.debug.xcconfig */,
+				BB3B489A9680279FFD178434 /* Pods-KeyboardHeightPotato.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F87402B27AC14AD0032EF7C /* Build configuration list for PBXNativeTarget "KeyboardHeightPotato" */;
 			buildPhases = (
+				7407E6176353D83B2848F1E3 /* [CP] Check Pods Manifest.lock */,
 				6F87401327AC14AB0032EF7C /* Sources */,
 				6F87401427AC14AB0032EF7C /* Frameworks */,
 				6F87401527AC14AB0032EF7C /* Resources */,
+				C9A9BECFB3812A12A89ED35A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +187,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7407E6176353D83B2848F1E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardHeightPotato-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A9BECFB3812A12A89ED35A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightPotato/Pods-KeyboardHeightPotato-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightPotato/Pods-KeyboardHeightPotato-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyboardHeightPotato/Pods-KeyboardHeightPotato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F87401327AC14AB0032EF7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6F87401F27AC14AB0032EF7C /* ViewController.swift in Sources */,
+				6F87402F27AC1CAB0032EF7C /* HomeViewController.swift in Sources */,
 				6F87401B27AC14AB0032EF7C /* AppDelegate.swift in Sources */,
+				6F87403627AC20A20032EF7C /* SnapKitViewController.swift in Sources */,
+				6F87403827AC20E00032EF7C /* PinNumberView.swift in Sources */,
+				6F87403427AC1F7A0032EF7C /* Common.swift in Sources */,
 				6F87401D27AC14AB0032EF7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,12 +384,13 @@
 		};
 		6F87402C27AC14AD0032EF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEB527EEFD979C533C11308 /* Pods-KeyboardHeightPotato.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XNYSNCPR8R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeyboardHeightPotato/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,12 +413,13 @@
 		};
 		6F87402D27AC14AD0032EF7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3B489A9680279FFD178434 /* Pods-KeyboardHeightPotato.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XNYSNCPR8R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeyboardHeightPotato/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
