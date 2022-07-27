@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF7F2712890FE44006F5A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F2702890FE44006F5A61 /* AppDelegate.swift */; };
+		6FF7F2732890FE44006F5A61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F2722890FE44006F5A61 /* SceneDelegate.swift */; };
+		6FF7F2752890FE44006F5A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F2742890FE44006F5A61 /* ViewController.swift */; };
+		6FF7F2782890FE44006F5A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7F2762890FE44006F5A61 /* Main.storyboard */; };
+		6FF7F27A2890FE47006F5A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7F2792890FE47006F5A61 /* Assets.xcassets */; };
+		6FF7F27D2890FE47006F5A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7F27B2890FE47006F5A61 /* LaunchScreen.storyboard */; };
+		6FF7F28A28910073006F5A61 /* MbtiSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F28928910073006F5A61 /* MbtiSelectView.swift */; };
+		6FF7F28C2891008F006F5A61 /* Mbti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F28B2891008F006F5A61 /* Mbti.swift */; };
+		6FF7F28E289100C0006F5A61 /* MbtiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F28D289100C0006F5A61 /* MbtiState.swift */; };
+		6FF7F290289100DE006F5A61 /* MbtiIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F28F289100DE006F5A61 /* MbtiIntent.swift */; };
+		6FF7F29328910829006F5A61 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7F29228910829006F5A61 /* BaseViewController.swift */; };
+		A444781DC7C212DCEA9C2A2C /* Pods_MVIPotato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAA190F23D28CBDB54276AB /* Pods_MVIPotato.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F089FE022E03844DF26FA58 /* Pods-MVIPotato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVIPotato.debug.xcconfig"; path = "Target Support Files/Pods-MVIPotato/Pods-MVIPotato.debug.xcconfig"; sourceTree = "<group>"; };
+		40837947DC8E78C797AE2E1C /* Pods-MVIPotato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVIPotato.release.xcconfig"; path = "Target Support Files/Pods-MVIPotato/Pods-MVIPotato.release.xcconfig"; sourceTree = "<group>"; };
+		6FF7F26D2890FE44006F5A61 /* MVIPotato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVIPotato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF7F2702890FE44006F5A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FF7F2722890FE44006F5A61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FF7F2742890FE44006F5A61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FF7F2772890FE44006F5A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF7F2792890FE47006F5A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FF7F27C2890FE47006F5A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FF7F27E2890FE47006F5A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF7F28928910073006F5A61 /* MbtiSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbtiSelectView.swift; sourceTree = "<group>"; };
+		6FF7F28B2891008F006F5A61 /* Mbti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mbti.swift; sourceTree = "<group>"; };
+		6FF7F28D289100C0006F5A61 /* MbtiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbtiState.swift; sourceTree = "<group>"; };
+		6FF7F28F289100DE006F5A61 /* MbtiIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbtiIntent.swift; sourceTree = "<group>"; };
+		6FF7F29228910829006F5A61 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DAAA190F23D28CBDB54276AB /* Pods_MVIPotato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVIPotato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF7F26A2890FE44006F5A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A444781DC7C212DCEA9C2A2C /* Pods_MVIPotato.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1D9287893961A93776231A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAAA190F23D28CBDB54276AB /* Pods_MVIPotato.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF7F2642890FE44006F5A61 = {
+			isa = PBXGroup;
+			children = (
+				6FF7F26F2890FE44006F5A61 /* MVIPotato */,
+				6FF7F26E2890FE44006F5A61 /* Products */,
+				761A406B7C788F0265846A64 /* Pods */,
+				6F1D9287893961A93776231A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF7F26E2890FE44006F5A61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F26D2890FE44006F5A61 /* MVIPotato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF7F26F2890FE44006F5A61 /* MVIPotato */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F2912891080A006F5A61 /* Application */,
+				6FF7F2842890FF61006F5A61 /* Mbti */,
+				6FF7F2702890FE44006F5A61 /* AppDelegate.swift */,
+				6FF7F2722890FE44006F5A61 /* SceneDelegate.swift */,
+				6FF7F2742890FE44006F5A61 /* ViewController.swift */,
+				6FF7F2762890FE44006F5A61 /* Main.storyboard */,
+				6FF7F2792890FE47006F5A61 /* Assets.xcassets */,
+				6FF7F27B2890FE47006F5A61 /* LaunchScreen.storyboard */,
+				6FF7F27E2890FE47006F5A61 /* Info.plist */,
+			);
+			path = MVIPotato;
+			sourceTree = "<group>";
+		};
+		6FF7F2842890FF61006F5A61 /* Mbti */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F2882890FFA6006F5A61 /* Intent */,
+				6FF7F2872890FF9E006F5A61 /* State */,
+				6FF7F2862890FF95006F5A61 /* Model */,
+				6FF7F2852890FF8F006F5A61 /* View */,
+			);
+			path = Mbti;
+			sourceTree = "<group>";
+		};
+		6FF7F2852890FF8F006F5A61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F28928910073006F5A61 /* MbtiSelectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF7F2862890FF95006F5A61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F28B2891008F006F5A61 /* Mbti.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FF7F2872890FF9E006F5A61 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F28D289100C0006F5A61 /* MbtiState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		6FF7F2882890FFA6006F5A61 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F28F289100DE006F5A61 /* MbtiIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		6FF7F2912891080A006F5A61 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7F29228910829006F5A61 /* BaseViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		761A406B7C788F0265846A64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F089FE022E03844DF26FA58 /* Pods-MVIPotato.debug.xcconfig */,
+				40837947DC8E78C797AE2E1C /* Pods-MVIPotato.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF7F26C2890FE44006F5A61 /* MVIPotato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF7F2812890FE47006F5A61 /* Build configuration list for PBXNativeTarget "MVIPotato" */;
+			buildPhases = (
+				2174D6C15154111D8DACDD45 /* [CP] Check Pods Manifest.lock */,
+				6FF7F2692890FE44006F5A61 /* Sources */,
+				6FF7F26A2890FE44006F5A61 /* Frameworks */,
+				6FF7F26B2890FE44006F5A61 /* Resources */,
+				22DDB6700659BD2D0CE493EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVIPotato;
+			productName = MVIPotato;
+			productReference = 6FF7F26D2890FE44006F5A61 /* MVIPotato.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF7F2652890FE44006F5A61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6FF7F26C2890FE44006F5A61 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FF7F2682890FE44006F5A61 /* Build configuration list for PBXProject "MVIPotato" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF7F2642890FE44006F5A61;
+			productRefGroup = 6FF7F26E2890FE44006F5A61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF7F26C2890FE44006F5A61 /* MVIPotato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF7F26B2890FE44006F5A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF7F27D2890FE47006F5A61 /* LaunchScreen.storyboard in Resources */,
+				6FF7F27A2890FE47006F5A61 /* Assets.xcassets in Resources */,
+				6FF7F2782890FE44006F5A61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2174D6C15154111D8DACDD45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVIPotato-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22DDB6700659BD2D0CE493EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVIPotato/Pods-MVIPotato-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVIPotato/Pods-MVIPotato-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVIPotato/Pods-MVIPotato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF7F2692890FE44006F5A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF7F2752890FE44006F5A61 /* ViewController.swift in Sources */,
+				6FF7F290289100DE006F5A61 /* MbtiIntent.swift in Sources */,
+				6FF7F2712890FE44006F5A61 /* AppDelegate.swift in Sources */,
+				6FF7F28A28910073006F5A61 /* MbtiSelectView.swift in Sources */,
+				6FF7F28E289100C0006F5A61 /* MbtiState.swift in Sources */,
+				6FF7F29328910829006F5A61 /* BaseViewController.swift in Sources */,
+				6FF7F28C2891008F006F5A61 /* Mbti.swift in Sources */,
+				6FF7F2732890FE44006F5A61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FF7F2762890FE44006F5A61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF7F2772890FE44006F5A61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF7F27B2890FE47006F5A61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF7F27C2890FE47006F5A61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FF7F27F2890FE47006F5A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FF7F2802890FE47006F5A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF7F2822890FE47006F5A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F089FE022E03844DF26FA58 /* Pods-MVIPotato.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVIPotato/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artie.MVIPotato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FF7F2832890FE47006F5A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40837947DC8E78C797AE2E1C /* Pods-MVIPotato.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAY4HKY2PC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVIPotato/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = artie.MVIPotato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF7F2682890FE44006F5A61 /* Build configuration list for PBXProject "MVIPotato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF7F27F2890FE47006F5A61 /* Debug */,
+				6FF7F2802890FE47006F5A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF7F2812890FE47006F5A61 /* Build configuration list for PBXNativeTarget "MVIPotato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF7F2822890FE47006F5A61 /* Debug */,
+				6FF7F2832890FE47006F5A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF7F2652890FE44006F5A61 /* Project object */;
+}
