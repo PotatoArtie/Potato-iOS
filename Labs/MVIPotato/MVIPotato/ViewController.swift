@@ -91,7 +91,7 @@ extension ViewController {
                 ) {
                     self?.mbtiSelectView.rightButtonSelected(isSelected: true)
                 } completion: { _ in
-                    self?.intent.leftButtonPressed()
+                    self?.intent.rightButtonPressed()
                 }
             }
             .disposed(by: disposeBag)
