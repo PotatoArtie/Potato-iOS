@@ -2,7 +2,7 @@
     "formatVersion" : 1,
     "passTypeIdentifier" : "pass.atlas.event",
     "serialNumber" : "XD",
-    "teamIdentifier" : "DB35VSN86K",
+    "teamIdentifier" : "<YOUR TEAM ID>",
     "barcodes" : [
         {
             "message" : "https://www.udemy.com/user/imdongju-2/",
