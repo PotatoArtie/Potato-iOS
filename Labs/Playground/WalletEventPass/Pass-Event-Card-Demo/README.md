@@ -10,6 +10,12 @@
 4. Certificates로 이동하여 '+'를 클릭하고 'Pass Type ID Certificate'를 선택합니다.
 5. 이전에 작성한 Pass Type ID를 선택하고 단계에 따라 인증서를 생성하여 Mac의 보안 키체인으로 가져옵니다.
 
+![attchment1](https://github.com/PotatoArtie/Potato-iOS/assets/98959780/cf22299f-2ee5-4c28-a757-98fce36d6e6d)
+![attchment2](https://github.com/PotatoArtie/Potato-iOS/assets/98959780/8a8daaa0-3593-4b67-867d-5940b876b94c)
+![attchment3](https://github.com/PotatoArtie/Potato-iOS/assets/98959780/099a8b60-69ab-4b05-bf53-3b7e790c1c80)
+![attchment4](https://github.com/PotatoArtie/Potato-iOS/assets/98959780/b3ed355d-0c2a-4530-a27e-5858c8055992)
+![attchment5](https://github.com/PotatoArtie/Potato-iOS/assets/98959780/47548ab1-033a-40d7-bac7-95d21e47067f)
+
 # 사용자의 패스 구성
 패스에 대한 모든 정보 및 구성 설정은 'pass.json' 파일에 있습니다.
 패스 템플릿을 Apple에서 생성한 서명 인증서와 정렬하려면 'pass.json'을 열고 다음을 수행합니다:
@@ -24,6 +30,7 @@
 ```
 ./signpass -p ExampleCard
 ```
+![attchment6](https://github.com/PotatoArtie/Potato-iOS/assets/98959780/f43173d5-d1d2-4e99-88dd-b26b9b530def)
 
 모든 것이 잘 진행되면 동일한 폴더에 'ExampleCard.pkpass' 파일이 생성됩니다.
 
@@ -37,6 +44,6 @@
 .pkpass 파일을 가져와 볼 때마다 실패 이유가 적힌 오류 메시지가 로그에 나타납니다.
 
 # 자세한 정보
-* Apple의 패스 생성에 대한 문서는 Apple Developer 웹 사이트에서 [Introducting Wallet](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/PassKit_PG/index.html #//apple_ref/doc/uid/TP40012195-CH1-SW1) 페이지를 확인하십시오.
+* Apple의 패스 생성에 대한 문서는 Apple Developer 웹 사이트에서 [월렛소개글](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/PassKit_PG/index.html 페이지를 확인하십시오.
 * pass.json에서 허용되는 키의 종류에 대한 자세한 내용은 Apple Developer 웹 사이트에서 [Top-Level Keys](https://developer.apple.com/library/content/documentation/UserExperience/Reference/PassKit_Bundle/Chapters/TopLevel.html) 페이지를 확인하십시오.
-* 샘플 패스와 'signpass'의 소스 코드는 [본 샘플 코드 다운로드](https://developer.apple.com/services-account/download?path=/iOS/Wallet_Support_Materials/WalletCompanionFiles.zip)를 확인하십시오.
+* 샘플 패스와 'signpass'의 소스 코드는 [애플 샘플 코드 다운로드](https://developer.apple.com/services-account/download?path=/iOS/Wallet_Support_Materials/WalletCompanionFiles.zip)를 확인하십시오.
