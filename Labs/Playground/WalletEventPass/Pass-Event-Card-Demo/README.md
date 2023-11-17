@@ -1,5 +1,8 @@
 # Pass-Event-Card
-> 간단한 이벤트 패스를 만들어 볼 수 있습니다. 
+> 간단한 이벤트 패스를 만들어 볼 수 있습니다.
+
+![attachment0](https://github.com/PotatoArtie/Potato-iOS/assets/98959780/2289cabf-85b1-4c54-96d1-f207b8d9191f)
+
 
 #서명 인증서 생성
 모든 기기에서 패스가 작동하기 전에(심지어 iOS 시뮬레이터에서도) 애플에서 발급한 인증서로 서명해야 합니다.
