@@ -1,0 +1,150 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.apple.devpubs.example",
+  "serialNumber" : "nmyuxofgna",
+  "teamIdentifier" : "A93A5CM278",
+  "webServiceURL" : "https://example.com/passes/",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Apple Inc.",
+  "description" : "Apple Event Ticket",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(60, 65, 76)",
+  "eventTicket" : {
+    "primaryFields" : [
+      {
+        "key" : "event",
+        "label" : "EVENT",
+        "value" : "The Beat Goes On"
+      }
+    ],
+	"secondaryFields" : [
+      {
+        "key" : "loc",
+        "label" : "LOCATION",
+        "value" : "Moscone West"
+      }
+    ]
+  }
+}
+
+
+
+
+{
+    "formatVersion" : 1,
+    "passTypeIdentifier" : "pass.rsquare.event",
+    "serialNumber" : "XD",
+    "teamIdentifier" : "DB35VSN86K",
+    "barcodes" : [
+        {
+            "message" : "https://www.udemy.com/user/imdongju-2/",
+            "format" : "PKBarcodeFormatQR",
+            "messageEncoding" : "iso-8859-1"
+        }
+    ],
+    "organizationName" : "Atlas labs",
+    "description" : "Atlas labs",
+    "foregroundColor" : "rgb(255, 255, 255)",
+    "backgroundColor" : "rgb(55, 117, 50)",
+    "labelColor" : "rgb(190, 57, 57)",
+    "storeCard" : {
+        "headerFields" : [
+            {
+                "key" : "header-name",
+                "textAlignment" : "PKTextAlignmentRight",
+                "label" : "PROFESSION",
+                "value" : "iOS Developer!!"
+            }
+        ],
+        "auxiliaryFields" : [
+            {
+                "key" : "blog",
+                "label" : "BLOG",
+                "value" : "https://artieee.tistory.com",
+                "textAlignment" : "PKTextAlignmentLeft"
+            },
+            {
+                "key" : "twitter",
+                "label" : "UDEMY",
+                "value" : "@Atlas",
+                "textAlignment" : "PKTextAlignmentRight"
+            }
+        ],
+        "backFields" : [
+            {
+                "key" : "back-name",
+                "label" : "NAME",
+                "value" : "임동주 a.k.a Atlas"
+            },
+            {
+                "key" : "back-role",
+                "label" : "OCCUPATION",
+                "value" : "iOS Developer & Instructor"
+            },
+            {
+                "key" : "back-email",
+                "label" : "EMAIL",
+                "attributedValue" : "<a href='mailto:atlas9539@gmail.com'>atlas9539@gmail.com</a>"
+            },
+            {
+                "key" : "back-blog",
+                "label" : "BLOG",
+                "attributedValue" : "<a href='https://artieee.tistory.com/6'>감자밭 개발자</a>"
+            },
+            {
+                "key" : "back-website",
+                "label" : "UDEMY",
+                "attributedValue" : "<a href='https://www.udemy.com/user/imdongju-2/'>@Atlas</a>"
+            },
+            {
+                "key" : "back-instagram",
+                "label" : "INSTAGRAM",
+                "attributedValue" : "<a href='https://www.instagram.com/reel/Cq7j5ycrG9e/?igshid=MzRlODBiNWFlZA%3D%3D'>@dev._.artiee</a>"
+            },
+            {
+                "key" : "back-github",
+                "label" : "GITHUB",
+                "attributedValue" : "<a href='https://github.com/PotatoArtie'>@아틀라스</a>"
+            }
+        ]
+    }
+}
+
+
+
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.rsquare.event",
+  "serialNumber" : "nmyuxofgna",
+  "teamIdentifier" : "DB35VSN86K",
+  "webServiceURL" : "https://www.udemy.com/user/imdongju-2/",
+  "barcode" : {
+    "message" : "https://www.udemy.com/user/imdongju-2/",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Apple Inc.",
+  "description" : "Apple Event Ticket",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(60, 65, 76)",
+  "storeCard" : {
+    "primaryFields" : [
+      {
+        "key" : "event",
+        "label" : "EVENT",
+        "value" : "The Beat Goes On"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "loc",
+        "label" : "LOCATION",
+        "value" : "Moscone West"
+      }
+    ]
+  }
+}
